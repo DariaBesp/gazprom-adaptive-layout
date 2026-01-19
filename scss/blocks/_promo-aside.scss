@@ -1,0 +1,76 @@
+.promo-aside {
+  &__wrapper {
+    position: relative;
+    width: 100%;
+    background-color: $color-alice-blue;
+    padding: 16px 20px;
+    border-radius: 16px;
+
+    @include vp-768 {
+      padding: 25px 24px;
+    }
+
+    @include vp-1024 {
+      padding: 48px 100px;
+    }
+
+    @include vp-1304 {
+      padding: 48px 120px;
+    }
+  }
+
+  &__text-block {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 160px;
+
+    @include vp-768 {
+      max-width: 470px;
+    }
+
+    @include vp-1024 {
+      max-width: 520px;
+    }
+
+    @include vp-1304 {
+      max-width: 640px;
+    }
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+
+    @include vp-1024 {
+      font-size: 24px;
+      line-height: 28px;
+    }
+  }
+
+  &__note {
+    font-size: 14px;
+    line-height: 18px;
+
+    @include vp-1024 {
+      font-size: 16px;
+      line-height: 22px;
+    }
+  }
+
+  &__img {
+    position: absolute;
+    right: 0;
+    bottom: 8px;
+
+    @include vp-768 {
+      right: 40px;
+      bottom: 0;
+    }
+
+    @include vp-1304 {
+      right: 184px;
+    }
+  }
+}
