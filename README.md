@@ -3,7 +3,7 @@
 
 ## 🌐 Демо
 
-[https://dariabesp.github.io/briaton-js/](https://dariabesp.github.io/gazprom-adaptive-layout/)
+[https://dariabesp.github.io/gazprom-adaptive-layout/](https://dariabesp.github.io/gazprom-adaptive-layout/)
 
 ## 🚀 Запуск проекта
 
