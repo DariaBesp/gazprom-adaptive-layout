@@ -17,14 +17,11 @@ cd gazprom-adaptive-layout
 ```
 
 3. Запустить локально:
-* Вариант 1 (через VS Code с установленным расширением Live Server):
+
+через VS Code с установленным расширением Live Server:
+  
 нажмите правой кнопкой на index.html → Open with Live Server
 
-или
-* Вариант 2 (через Node.js):
-```bash
-npx serve
-```
 ---
 
 ## 🛠️ Технологии
